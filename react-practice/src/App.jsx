@@ -1,10 +1,12 @@
-import {States} from "./States";
+// import {States} from "./States";
+
+import { LiftStateUp } from "./LiftStateUp";
 
 const App = () => {
     return (
         <div>
-            <h1>Welcome to React Practice</h1>
-            <States />
+            
+            <LiftStateUp ></LiftStateUp>
         </div>
     );
 }
