@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "urbanist", sans-serif;
+    
+}
+form .container{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    max-width: 30vw;
+    padding: 32px 24px;   
+    margin: 30px auto;
+    padding-bottom: 40px;
+}
+h1{
+    align-self: center;
+}
+label{
+    font-size: 12px;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.container input{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: rgb(100, 51, 33);  
+    margin-bottom: 16px;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px ;
+    align-self: flex-end;
+    
+    
+}
